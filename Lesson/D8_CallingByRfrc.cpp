@@ -41,7 +41,7 @@ int main(){
     function name: ptb2 - type:   ax^2 + bx + c = 0
     argument: int a, int b, int c, double x1, double x2
     type: int [-1: pt vo nghiem, 0: pt co nghiem kep, 1: pt co 2 nghiem]
-    way to calling by reference: add '&' precede variable name 
+    way to calling by reference: add '&' precede variable name    or    add '*' before variable after call function
 */
 int ptb2(int a, int b, int c, double &x1, double &x2){
     double delta = b*b - 4*a*c;
