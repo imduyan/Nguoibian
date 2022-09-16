@@ -36,10 +36,6 @@ int main()
         }
         if (choice == 3)
         {
-            
-        }
-        if (choice == 4)
-        {
             return 0;
         }
         else
@@ -55,9 +51,8 @@ int main()
 void templ(){
     system("cls");
     printf(" -- MENU --");
-    printf("\n1. C Program to display the number of times a specified character occurs in a string.");
-    printf("\n2. C Program to add 5 names followed by a prefix.");
-    printf("\n3. C Program to display the maximum and minimum temperature for each of 5 cities.");
-    printf("\n4. Exit.");
+    printf("\n1. ");
+    printf("\n2. ");
+    printf("\n3. Exit.");
     printf("\n------------------");
 }
