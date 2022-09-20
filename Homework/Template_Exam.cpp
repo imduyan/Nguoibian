@@ -24,23 +24,21 @@ int main()
     while (1 == 1)
     {
         templ();
-        printf("\nPlz enter your choice [1-4]:"); scanf("%d", &choice); fflush(stdin);
+        printf("\nPlz enter your choice [1-3]:"); scanf("%d", &choice); fflush(stdin);
 
-        if (choice == 1)
+        switch (choice)
         {
-           
-        }
-        if (choice == 2)
-        {
-           
-        }
-        if (choice == 3)
-        {
+        case 1:
+            
+            break;
+        case 2:
+            
+            break;
+        case 3:
             return 0;
-        }
-        else
-        {
+        default:
             printf("Invalid choice!!!");
+            break;
         }
         printf("\nPress any key...");
         getch(); //wait for user enter any key
@@ -50,9 +48,10 @@ int main()
 // template function in while loop in main()
 void templ(){
     system("cls");
-    printf(" -- MENU --");
-    printf("\n1. ");
-    printf("\n2. ");
-    printf("\n3. Exit.");
-    printf("\n------------------");
+    printf("****************************************************");
+    printf("\n* Selecting appropriate action:                    *");
+    printf("\n*       1. Question 1                              *");
+    printf("\n*       2. Question 2                              *");
+    printf("\n*       3. Exit                                    *");
+    printf("\n****************************************************");
 }
